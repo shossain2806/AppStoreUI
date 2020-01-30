@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionReusableView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="ENH-zL-hec" customClass="SectionHeaderView" customModule="AppStoreUI" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="89"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" alignment="top" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="nOQ-2P-3Ax">
+                    <rect key="frame" x="20" y="10" width="374" height="69"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="uKB-K8-ny2">
+                            <rect key="frame" x="0.0" y="0.0" width="317" height="48.5"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="1000" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" text="Snapchat" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pMY-up-CaM">
+                                    <rect key="frame" x="0.0" y="0.0" width="88" height="24"/>
+                                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="1000" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" text="Share the moment!" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="raG-fO-OPd">
+                                    <rect key="frame" x="0.0" y="29" width="138.5" height="19.5"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                    <color key="textColor" systemColor="secondaryLabelColor" red="0.23529411759999999" green="0.23529411759999999" blue="0.26274509800000001" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                        </stackView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X4r-2v-kiw">
+                            <rect key="frame" x="327" y="0.0" width="47" height="30"/>
+                            <state key="normal" title="See All"/>
+                        </button>
+                    </subviews>
+                </stackView>
+            </subviews>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="nOQ-2P-3Ax" secondAttribute="bottom" constant="10" id="0Y2-9h-Pnh"/>
+                <constraint firstAttribute="trailing" secondItem="nOQ-2P-3Ax" secondAttribute="trailing" constant="20" id="Aav-iE-qLR"/>
+                <constraint firstItem="nOQ-2P-3Ax" firstAttribute="top" secondItem="ENH-zL-hec" secondAttribute="top" constant="10" id="eNx-JJ-Nwc"/>
+                <constraint firstItem="nOQ-2P-3Ax" firstAttribute="leading" secondItem="ENH-zL-hec" secondAttribute="leading" constant="20" id="h1n-6V-rR1"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="WA3-9L-puF"/>
+            <connections>
+                <outlet property="btnSeeAll" destination="X4r-2v-kiw" id="01Q-TO-aAm"/>
+                <outlet property="lblDescription" destination="raG-fO-OPd" id="cpv-De-slO"/>
+                <outlet property="lblTitle" destination="pMY-up-CaM" id="Cbp-tK-TcR"/>
+            </connections>
+            <point key="canvasLocation" x="113.04347826086958" y="44.53125"/>
+        </collectionReusableView>
+    </objects>
+</document>

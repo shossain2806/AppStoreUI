@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="N2V-15-5ih" customClass="AppStoreItemCell" customModule="AppStoreUI" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="607" height="281"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="RjI-Kb-AUe">
+                <rect key="frame" x="0.0" y="0.0" width="607" height="281"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" alignment="top" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="Eec-Sp-vQN">
+                        <rect key="frame" x="0.0" y="0.0" width="607" height="92.5"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IMG_5252" translatesAutoresizingMaskIntoConstraints="NO" id="Mja-As-rTF">
+                                <rect key="frame" x="0.0" y="0.0" width="92.5" height="92.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Mja-As-rTF" secondAttribute="height" multiplier="1:1" id="TKL-CU-xVi"/>
+                                </constraints>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="8Ua-vH-wjm">
+                                <rect key="frame" x="107.5" y="0.0" width="499.5" height="92.5"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="A1D-cQ-Fxz">
+                                        <rect key="frame" x="0.0" y="0.0" width="138.5" height="48.5"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="1000" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" text="Snapchat" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="7fJ-Mc-4sr">
+                                                <rect key="frame" x="0.0" y="0.0" width="83.5" height="24"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="1000" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" text="Share the moment!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="hG4-Cq-WOW">
+                                                <rect key="frame" x="0.0" y="29" width="138.5" height="19.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                <color key="textColor" systemColor="secondaryLabelColor" red="0.23529411759999999" green="0.23529411759999999" blue="0.26274509800000001" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="VWc-xY-zZZ">
+                                        <rect key="frame" x="0.0" y="58.5" width="146" height="34"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="1000" verticalHuggingPriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HPj-4E-c4O">
+                                                <rect key="frame" x="0.0" y="0.0" width="68" height="34"/>
+                                                <color key="backgroundColor" systemColor="secondarySystemFillColor" red="0.47058823529999999" green="0.47058823529999999" blue="0.50196078430000002" alpha="0.16" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="68" id="KAU-LK-B11"/>
+                                                    <constraint firstAttribute="height" constant="34" id="W5H-KT-MAf"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                                                <state key="normal" title="Get"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                        <integer key="value" value="17"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1h5-E8-abz">
+                                                <rect key="frame" x="78" y="0.0" width="68" height="34"/>
+                                                <string key="text">In-App
+Purchase</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                <color key="textColor" systemColor="secondaryLabelColor" red="0.23529411759999999" green="0.23529411759999999" blue="0.26274509800000001" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="Mja-As-rTF" firstAttribute="height" secondItem="8Ua-vH-wjm" secondAttribute="height" id="h4c-w3-pHh"/>
+                        </constraints>
+                    </stackView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Aye-LK-3pg">
+                        <rect key="frame" x="92.5" y="112.5" width="514.5" height="0.5"/>
+                        <color key="backgroundColor" systemColor="opaqueSeparatorColor" red="0.77647058820000003" green="0.77647058820000003" blue="0.7843137255" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="0.5" id="6CA-mM-2T8"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Aye-LK-3pg" firstAttribute="leading" secondItem="Mja-As-rTF" secondAttribute="trailing" id="6Ga-IK-nCa"/>
+                    <constraint firstItem="Eec-Sp-vQN" firstAttribute="top" secondItem="RjI-Kb-AUe" secondAttribute="top" id="KfZ-Gt-hkz"/>
+                    <constraint firstItem="Eec-Sp-vQN" firstAttribute="leading" secondItem="RjI-Kb-AUe" secondAttribute="leading" id="PdT-cA-yYd"/>
+                    <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="Eec-Sp-vQN" secondAttribute="bottom" id="QZn-Lh-bnU"/>
+                    <constraint firstAttribute="trailing" secondItem="Eec-Sp-vQN" secondAttribute="trailing" id="Sdd-Wk-Mgn"/>
+                    <constraint firstItem="Aye-LK-3pg" firstAttribute="top" secondItem="Eec-Sp-vQN" secondAttribute="bottom" constant="20" id="ixu-0T-uR1"/>
+                    <constraint firstAttribute="trailing" secondItem="Aye-LK-3pg" secondAttribute="trailing" id="vKc-Ff-8Uk"/>
+                </constraints>
+            </collectionViewCellContentView>
+            <size key="customSize" width="607" height="305"/>
+            <connections>
+                <outlet property="btnGet" destination="HPj-4E-c4O" id="17g-fH-5ra"/>
+                <outlet property="imgViewIcon" destination="Mja-As-rTF" id="lFS-kR-Tao"/>
+                <outlet property="lblDescription" destination="hG4-Cq-WOW" id="8Kq-IT-DkB"/>
+                <outlet property="lblInAppPurchase" destination="1h5-E8-abz" id="Vfx-Nc-Gr7"/>
+                <outlet property="lblTitle" destination="7fJ-Mc-4sr" id="E69-10-w4C"/>
+                <outlet property="seperatorView" destination="Aye-LK-3pg" id="SPb-Us-fAc"/>
+            </connections>
+            <point key="canvasLocation" x="431.15942028985512" y="120.20089285714285"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="IMG_5252" width="317" height="318"/>
+    </resources>
+</document>

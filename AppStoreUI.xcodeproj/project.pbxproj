@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A0C0EFC23E2ADF400F3462F /* AppStoreContent.json in Resources */ = {isa = PBXBuildFile; fileRef = 8A0C0EFB23E2ADF400F3462F /* AppStoreContent.json */; };
+		8A0C0EFE23E2ED1400F3462F /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0C0EFD23E2ED1400F3462F /* BackgroundView.swift */; };
+		8A0C0F0223E2F26700F3462F /* AppStoreItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0C0F0123E2F26700F3462F /* AppStoreItemCell.swift */; };
+		8A0C0F0423E2F27500F3462F /* AppStoreItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A0C0F0323E2F27500F3462F /* AppStoreItemCell.xib */; };
+		8A27C58623E96B2D00915C44 /* SectionHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A27C58523E96B2D00915C44 /* SectionHeaderView.xib */; };
+		8A27C58823E96BA500915C44 /* SectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A27C58723E96BA500915C44 /* SectionHeaderView.swift */; };
+		8A7427BE23D8195D00E9C1E1 /* AppStoreFeatureCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A7427BD23D8195D00E9C1E1 /* AppStoreFeatureCell.xib */; };
+		8A7427C023D81A5F00E9C1E1 /* AppStoreFeatureCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7427BF23D81A5F00E9C1E1 /* AppStoreFeatureCell.swift */; };
+		8A7427C323D8213C00E9C1E1 /* AppStoreItemController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7427C223D8213C00E9C1E1 /* AppStoreItemController.swift */; };
 		8AE0653423D80E8400BC1C90 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE0653323D80E8400BC1C90 /* AppDelegate.swift */; };
 		8AE0653623D80E8400BC1C90 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE0653523D80E8400BC1C90 /* SceneDelegate.swift */; };
 		8AE0653823D80E8400BC1C90 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE0653723D80E8400BC1C90 /* ViewController.swift */; };
@@ -16,6 +25,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8A0C0EFB23E2ADF400F3462F /* AppStoreContent.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = AppStoreContent.json; sourceTree = "<group>"; };
+		8A0C0EFD23E2ED1400F3462F /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
+		8A0C0F0123E2F26700F3462F /* AppStoreItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStoreItemCell.swift; sourceTree = "<group>"; };
+		8A0C0F0323E2F27500F3462F /* AppStoreItemCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AppStoreItemCell.xib; sourceTree = "<group>"; };
+		8A27C58523E96B2D00915C44 /* SectionHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SectionHeaderView.xib; sourceTree = "<group>"; };
+		8A27C58723E96BA500915C44 /* SectionHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionHeaderView.swift; sourceTree = "<group>"; };
+		8A7427BD23D8195D00E9C1E1 /* AppStoreFeatureCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AppStoreFeatureCell.xib; sourceTree = "<group>"; };
+		8A7427BF23D81A5F00E9C1E1 /* AppStoreFeatureCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStoreFeatureCell.swift; sourceTree = "<group>"; };
+		8A7427C223D8213C00E9C1E1 /* AppStoreItemController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStoreItemController.swift; sourceTree = "<group>"; };
 		8AE0653023D80E8400BC1C90 /* AppStoreUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppStoreUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AE0653323D80E8400BC1C90 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8AE0653523D80E8400BC1C90 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +55,53 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8A0C0EFF23E2F23F00F3462F /* AppStoreFeature */ = {
+			isa = PBXGroup;
+			children = (
+				8A7427BD23D8195D00E9C1E1 /* AppStoreFeatureCell.xib */,
+				8A7427BF23D81A5F00E9C1E1 /* AppStoreFeatureCell.swift */,
+			);
+			path = AppStoreFeature;
+			sourceTree = "<group>";
+		};
+		8A0C0F0023E2F24E00F3462F /* AppStoreItem */ = {
+			isa = PBXGroup;
+			children = (
+				8A0C0F0123E2F26700F3462F /* AppStoreItemCell.swift */,
+				8A0C0F0323E2F27500F3462F /* AppStoreItemCell.xib */,
+			);
+			path = AppStoreItem;
+			sourceTree = "<group>";
+		};
+		8A27C58423E96B1900915C44 /* SectionHeaderView */ = {
+			isa = PBXGroup;
+			children = (
+				8A27C58523E96B2D00915C44 /* SectionHeaderView.xib */,
+				8A27C58723E96BA500915C44 /* SectionHeaderView.swift */,
+			);
+			path = SectionHeaderView;
+			sourceTree = "<group>";
+		};
+		8A7427BC23D8193D00E9C1E1 /* Cells+Supplementary Views */ = {
+			isa = PBXGroup;
+			children = (
+				8A27C58423E96B1900915C44 /* SectionHeaderView */,
+				8A0C0F0023E2F24E00F3462F /* AppStoreItem */,
+				8A0C0EFF23E2F23F00F3462F /* AppStoreFeature */,
+				8A0C0EFD23E2ED1400F3462F /* BackgroundView.swift */,
+			);
+			path = "Cells+Supplementary Views";
+			sourceTree = "<group>";
+		};
+		8A7427C123D820D700E9C1E1 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8A7427C223D8213C00E9C1E1 /* AppStoreItemController.swift */,
+				8A0C0EFB23E2ADF400F3462F /* AppStoreContent.json */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		8AE0652723D80E8300BC1C90 = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +121,8 @@
 		8AE0653223D80E8400BC1C90 /* AppStoreUI */ = {
 			isa = PBXGroup;
 			children = (
+				8A7427C123D820D700E9C1E1 /* Controllers */,
+				8A7427BC23D8193D00E9C1E1 /* Cells+Supplementary Views */,
 				8AE0653323D80E8400BC1C90 /* AppDelegate.swift */,
 				8AE0653523D80E8400BC1C90 /* SceneDelegate.swift */,
 				8AE0653723D80E8400BC1C90 /* ViewController.swift */,
@@ -126,8 +193,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				8AE0654023D80E8500BC1C90 /* LaunchScreen.storyboard in Resources */,
+				8A0C0EFC23E2ADF400F3462F /* AppStoreContent.json in Resources */,
 				8AE0653D23D80E8500BC1C90 /* Assets.xcassets in Resources */,
+				8A7427BE23D8195D00E9C1E1 /* AppStoreFeatureCell.xib in Resources */,
+				8A0C0F0423E2F27500F3462F /* AppStoreItemCell.xib in Resources */,
 				8AE0653B23D80E8400BC1C90 /* Main.storyboard in Resources */,
+				8A27C58623E96B2D00915C44 /* SectionHeaderView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +209,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A0C0EFE23E2ED1400F3462F /* BackgroundView.swift in Sources */,
 				8AE0653823D80E8400BC1C90 /* ViewController.swift in Sources */,
+				8A0C0F0223E2F26700F3462F /* AppStoreItemCell.swift in Sources */,
+				8A27C58823E96BA500915C44 /* SectionHeaderView.swift in Sources */,
 				8AE0653423D80E8400BC1C90 /* AppDelegate.swift in Sources */,
+				8A7427C023D81A5F00E9C1E1 /* AppStoreFeatureCell.swift in Sources */,
 				8AE0653623D80E8400BC1C90 /* SceneDelegate.swift in Sources */,
+				8A7427C323D8213C00E9C1E1 /* AppStoreItemController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,7 +292,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -270,7 +346,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -285,7 +361,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XYSCZDXKR7;
 				INFOPLIST_FILE = AppStoreUI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,7 +380,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XYSCZDXKR7;
 				INFOPLIST_FILE = AppStoreUI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
